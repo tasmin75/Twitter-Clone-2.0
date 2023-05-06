@@ -1,0 +1,43 @@
+.main{
+    
+    background-color: white;
+    width: 40vw;
+    border: .5px solid rgb(244, 240, 240);
+}
+.box{
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    background:transparent;
+    background-color: white;
+    border: .5px solid rgb(244, 240, 240)
+    ;
+}
+.first{
+    background-color: white;
+    padding: .8rem;
+    border: 1px .5px solid rgb(244, 240, 240)
+    ;
+}
+.second{
+    opacity: .6;
+    background-color: white;
+    height: 3rem;
+    text-align: center;
+    display: flex;
+    border: .5px solid rgb(244, 240, 240)
+    ;
+}
+.second>div{
+    font-weight: 580;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+.second>div:hover{
+    background-color: rgb(221, 227, 231);
+
+}

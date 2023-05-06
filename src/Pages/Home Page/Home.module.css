@@ -1,0 +1,8 @@
+.feedContainer {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+.mainContainer{
+  display: flex;
+}
